@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa de Voleibol</title>
+ 
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Volleyball
+            </div>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#movimientos">Movimientos</a></li>
+                <li><a href="#jugadas">Jugadas</a></li>
+                <li><a href="#ejercicios">Ejercicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+            <h1>Aprende Voleibol Desde Cero</h1>
+
+            <p>
+                Descubre movimientos, técnicas, jugadas estratégicas
+                y ejercicios para mejorar tu rendimiento.
+            </p>
+
+            <a href="#movimientos" class="btn">
+                Comenzar
+            </a>
+        </div>
+
+    </section>
+
+    <!-- MOVIMIENTOS -->
+    <section id="movimientos" class="section">
+
+        <h2>Movimientos Básicos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="{{ url_for('static', filename='toque.jpg') }}" width="400">
+                <h3>Recepción</h3>
+                <p>la recepcion se realiza con barios pasos.
+                <li>No.1:En todo momento tendras las rodillas fleccionadas para que tu centro de grabedad este bajo y sea mas facil hacer una recepcion correcta</li>
+                <li>No.2:Juntaras tus brasos y siempre estaran extendidos</li>
+                <li>No.3:El golpe se realiza con los brasos extendidos, hay personas que doblan los codos a la hora de hacer el golpe y eso esta mal</li>
+                <li>No.4:A la hora de hacer la recepcion, necesitas voltear a ver al colocador para darle direccion al balon</li>
+                <li>No.5:La posicion de los brazos tiene que ser entre 190° a 210° para que el golpe balla hacia arriba del colocador y no pase por encima de el</li>
+                <li>No.6:Probablemente el balon ya biene con fuerza pero si no deberas apliar un poco para que llegue al colocador</li>
+                <li>No.7:Si el balon biene alto pero, no lo suficiente para volear, mueve tus brasos hacia los lados y jiras un poco la muñeca para dar direccion</li>
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="{{ url_for('static', filename='voleo.jpg') }}" width="400">
+                <h3>Toque de Dedos</h3>
+                <p>Explicación completa...</p>
+            </div>
+
+            <div class="card">
+                <img src="img/remate.jpg" alt="">
+                <h3>Remate</h3>
+                <p>Explicación completa...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- JUGADAS -->
+    <section id="jugadas" class="section oscuro">
+
+        <h2>Jugadas Estratégicas</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Ataque Rápido</h3>
+                <p>Descripción...</p>
+            </div>
+
+            <div class="card">
+                <h3>Bloqueo Doble</h3>
+                <p>Descripción...</p>
+            </div>
+
+            <div class="card">
+                <h3>Finta</h3>
+                <p>Descripción...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EJERCICIOS -->
+    <section id="ejercicios" class="section">
+
+        <h2>Ejercicios de Entrenamiento</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h3>Saltos Verticales</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-running"></i>
+                <h3>Velocidad</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Reflejos</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="section oscuro">
+
+        <h2>Galería</h2>
+
+        <div class="gallery">
+
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Guía de Voleibol</h3>
+
+        <p>
+            Aprende técnicas, jugadas y entrenamiento profesional.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
